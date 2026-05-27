@@ -5,21 +5,17 @@
     font-family: Arial, sans-serif;
 }
 body{
-    background: #111;
+    background:black;
     color: white;
 }
 
 /* navbar */
 
 header{
-    background: #000;
+    background:rgb(8, 0, 0);
     padding: 20px 50px;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1000;
 }
 nav{
     display: flex;
@@ -44,6 +40,7 @@ nav ul li a:hover{
 }
 .logo{
     color:cyan;
+
 }
 
 
